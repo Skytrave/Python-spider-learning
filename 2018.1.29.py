@@ -10,3 +10,4 @@ try:
 	print(res.text)
 except ConnectionError:
 	print('拒接连接')
+exit()
