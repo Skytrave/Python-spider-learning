@@ -39,7 +39,7 @@ def get_info(url):
 		}#获取信息并通过字典的信息打印
 	print(data)
 if __name__=='__main__':#程序主入口
-	urls=['https://bj.xiaozhu.com/search-duanzufang-p{}-0/'.format(number) for number in range(1,4)]
+	urls=['https://nb.xiaozhu.com/search-duanzufang-p{}-0/'.format(number) for number in range(1,6)]
 	for single_url in urls:
 		get_links(single_url)#循环调用get_links()函数
 		time.sleep(2)#睡眠2秒
