@@ -25,4 +25,4 @@ if __name__=='__main__':#程序主入口
 	urls=['http://www.kugou.com/yy/rank/home/{}-8888.html?from=homepage'.format(number) for number in range(1,24)]#构造多页url
 	for url in urls:
 		get_info(url)#循环调用get_info()函数
-	time.sleep(2)#睡眠2秒
+	time.sleep(3)#睡眠3秒
