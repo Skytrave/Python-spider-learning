@@ -9,7 +9,7 @@ for name,age in zip(names,ages):
 	print(name,age)
 #for a in range(1,14):
 #	print(a)
-urls=['https://www.cnblogs.com/waltsmith/p{}-0/'.format(a) for a in range(1,14)]
+urls=['https://www.cnblogs.com/waltsmith/p{}-0/'.format(a) for a in range(1,13)]
 for url in urls:
 	s=list(url)#修改字符串为列表
 	s.pop(4)#改动需要改动的单个字符
