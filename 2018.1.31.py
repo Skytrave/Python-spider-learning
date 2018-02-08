@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 import time #导入相应的库
 headers={
-'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36'
+'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
 }#伪装浏览器请求头
 def judgment_sex(class_name):
 	if class_name ==['member_ico']:
