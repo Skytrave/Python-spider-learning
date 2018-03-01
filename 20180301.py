@@ -52,4 +52,4 @@ if __name__== '__main__' :
 			f.write(info_list['comment']+'\n\n')
 			f.close()
 		except UnicodeEncodeError:
-			pass#pass掉错误编码
+			pass#pass掉错误编码。
