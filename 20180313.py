@@ -68,5 +68,5 @@ if __name__ == '__main__':
 		for url in urls:
 			scraper(url)
 		end = time.time()
-		print(name,end-start)
+		print(name,end-start)#
 
